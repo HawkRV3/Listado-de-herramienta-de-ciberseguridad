@@ -64,7 +64,6 @@ Estas herramientas permiten simular ataques de phishing para evaluar la concienc
 - **Maskphish**: Oculta enlaces de phishing mediante ofuscación.
 - **Bitly**: Servicio para acortar URLs.
 - **Yphisher**: Recopila información detallada como ubicación y credenciales.
-- **Maskphish**: Ayuda a ocultar los link de phishing.
 
 ---
 
@@ -104,7 +103,19 @@ Incluye herramientas para tareas específicas que no encajan en las categorías 
 
 ---
 
-## 10. Comandos Esenciales para Pentesting
+## 10. Plataformas de Threat Management
+Recursos en línea para la gestión de amenazas y recopilación de inteligencia.
+
+- [Cybok](https://www.cybok.org)
+- [Talos Intelligence SHA Searches](https://talosintelligence.com/sha_searches)
+- [CVE](https://www.cve.org)
+- [CVE Details](https://www.cvedetails.com)
+- [Cisco Security Publications](https://sec.cloudapps.cisco.com/security/center/publicationListing.x)
+- [MITRE ATT&CK](https://attack.mitre.org)
+
+---
+
+## 11. Comandos Esenciales para Pentesting
 
 - **go build "nombre del archivo"**: Crea un ejecutable desde un archivo fuente en Go.
 - **go build -ldflags -H=windowsgui "nombre del archivo"**: Genera un ejecutable sin ventana visible (usado para payloads ocultos).
