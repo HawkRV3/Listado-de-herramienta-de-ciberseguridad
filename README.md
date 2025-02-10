@@ -131,6 +131,13 @@ Incluye herramientas para tareas específicas que no encajan en las categorías 
 - **go build -ldflags -H=windowsgui "nombre del archivo"**: Genera un ejecutable sin ventana visible (usado para payloads ocultos).
 
 ---
+
+## 13. Herramientas Criptográficas
+- **OpenSSL**: Herramienta poderosa para la creación y gestión de certificados SSL/TLS y encriptación de datos.
+- **ccrypt**: Software de cifrado basado en contraseñas para proteger archivos en Linux.
+
+---
+
 # Comandos básicos de Linux
 
 ## Archivos y Navegación
