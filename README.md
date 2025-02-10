@@ -14,6 +14,7 @@ Estas herramientas se utilizan para recopilar información sobre objetivos poten
 - **BuiltWith**: Servicio que identifica tecnologías empleadas en sitios web.
 - **Wayback Machine**: Archivo digital que permite visualizar versiones anteriores de sitios web.
 - **Shodan.io**: Motor de búsqueda para dispositivos conectados a Internet (IoT) y sus configuraciones.
+- **Userrecon**: Herramienta para la búsqueda de nombres de usuario en plataformas online y redes sociales.
 
 ---
 
@@ -91,7 +92,28 @@ Estas herramientas ayudan a recopilar información estratégica sobre amenazas y
 
 ---
 
-## 9. Herramientas y Estándares Misceláneos
+## 9. Herramientas para Hacking de Cámaras CCTV
+Estas herramientas permiten evaluar la seguridad de sistemas de videovigilancia.
+
+- **HackCCTV**: Herramienta para detectar cámaras de seguridad vulnerables y verificar configuraciones de seguridad.
+
+---
+
+## 10. Plataformas de Threat Management
+Recursos en línea para la gestión de amenazas y recopilación de inteligencia.
+
+- [Cybok Knowledge Base](https://www.cybok.org/knowledgebase1_1/)
+- [Talos Intelligence SHA Searches](https://talosintelligence.com/sha_searches)
+- [CVE Resources](https://www.cve.org/ResourcesSupport/Resources)
+- [CVE Details - CVE-2024-20450](https://www.cvedetails.com/cve/CVE-2024-20450/)
+- [Cisco Security Publications](https://sec.cloudapps.cisco.com/security/center/publicationListing.x)
+- [MITRE ATT&CK](https://attack.mitre.org)
+- [Google SecOps](https://security.google/solutions/security-operations/)
+- [Google Threat Intelligence](https://security.google/solutions/threat-intelligence/)
+
+---
+
+## 11. Herramientas y Estándares Misceláneos
 Incluye herramientas para tareas específicas que no encajan en las categorías anteriores.
 
 - **LoRa**: Estándar de comunicación de baja potencia para IoT.
@@ -103,19 +125,7 @@ Incluye herramientas para tareas específicas que no encajan en las categorías 
 
 ---
 
-## 10. Plataformas de Threat Management
-Recursos en línea para la gestión de amenazas y recopilación de inteligencia.
-
-- [Cybok](https://www.cybok.org)
-- [Talos Intelligence SHA Searches](https://talosintelligence.com/sha_searches)
-- [CVE](https://www.cve.org)
-- [CVE Details](https://www.cvedetails.com)
-- [Cisco Security Publications](https://sec.cloudapps.cisco.com/security/center/publicationListing.x)
-- [MITRE ATT&CK](https://attack.mitre.org)
-
----
-
-## 11. Comandos Esenciales para Pentesting
+## 12. Comandos Esenciales para Pentesting
 
 - **go build "nombre del archivo"**: Crea un ejecutable desde un archivo fuente en Go.
 - **go build -ldflags -H=windowsgui "nombre del archivo"**: Genera un ejecutable sin ventana visible (usado para payloads ocultos).
