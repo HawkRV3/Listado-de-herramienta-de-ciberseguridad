@@ -1,4 +1,4 @@
-# Guía de Herramientas para Pentesting y Hacking Ético
+# Guía de Herramientas para Ciberseguridad
 
 Este documento reestructura y amplía las categorías de herramientas utilizadas en pentesting y hacking ético, proporcionando una explicación clara de la función de cada herramienta y su ubicación adecuada según su propósito.
 
