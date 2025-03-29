@@ -4,8 +4,8 @@ Este documento reestructura y amplía las categorías de herramientas utilizadas
 
 ---
 
-## 1. Herramientas de Escaneo y Reconocimiento
-Estas herramientas se utilizan para recopilar información sobre objetivos potenciales, realizar reconocimiento pasivo o activo, y analizar redes y sistemas.
+## 1. Herramientas/técnicas de Escaneo y Reconocimiento
+Estas herramientas se utilizan para recopilar información sobre objetivos potenciales, realizar reconocimiento pasivo o activo analizando redes y sistemas.
 
 - **Nmap**: Herramienta versátil para escaneo de puertos, detección de servicios, sistemas operativos y vulnerabilidades en redes.
 - **OSINT**: Conjunto de técnicas y herramientas para reconocimiento pasivo mediante fuentes públicas.
@@ -89,31 +89,11 @@ Estas herramientas ayudan a recopilar información estratégica sobre amenazas y
 - **Recon-ng**: Framework modular para reconocimiento avanzado.
 - **ThreatCrowd**: Servicio para identificar relaciones entre dominios, IPs y malware.
 - **Hunchly**: Herramienta para documentar y gestionar investigación en fuentes abiertas.
+- **MISP**: Plataforma que permite compartir información sobre ciberamenazas.
 
 ---
 
-## 9. Herramientas para Hacking de Cámaras CCTV
-Estas herramientas permiten evaluar la seguridad de sistemas de videovigilancia.
-
-- **HackCCTV**: Herramienta para detectar cámaras de seguridad vulnerables y verificar configuraciones de seguridad.
-
----
-
-## 10. Plataformas de Threat Management
-Recursos en línea para la gestión de amenazas y recopilación de inteligencia.
-
-- [Cybok Knowledge Base](https://www.cybok.org/knowledgebase1_1/)
-- [Talos Intelligence SHA Searches](https://talosintelligence.com/sha_searches)
-- [CVE Resources](https://www.cve.org/ResourcesSupport/Resources)
-- [CVE Details - CVE-2024-20450](https://www.cvedetails.com/cve/CVE-2024-20450/)
-- [Cisco Security Publications](https://sec.cloudapps.cisco.com/security/center/publicationListing.x)
-- [MITRE ATT&CK](https://attack.mitre.org)
-- [Google SecOps](https://security.google/solutions/security-operations/)
-- [Google Threat Intelligence](https://security.google/solutions/threat-intelligence/)
-
----
-
-## 11. Herramientas y Estándares Misceláneos
+## 9. Herramientas y Estándares Misceláneos
 Incluye herramientas para tareas específicas que no encajan en las categorías anteriores.
 
 - **LoRa**: Estándar de comunicación de baja potencia para IoT.
@@ -122,84 +102,14 @@ Incluye herramientas para tareas específicas que no encajan en las categorías 
 - **Evil Limiter**: Bloquea o limita el acceso de dispositivos en una red.
 - **Macchanger**: Cambia direcciones MAC para pruebas de seguridad.
 - **Anonsurf**: Capa de anonimato para navegar en redes mediante Tor.
+- **HackCCTV**: Herramienta para detectar cámaras de seguridad vulnerables y verificar configuraciones de seguridad.
 
 ---
 
-## 12. Comandos Esenciales para Pentesting
-
-- **go build "nombre del archivo"**: Crea un ejecutable desde un archivo fuente en Go.
-- **go build -ldflags -H=windowsgui "nombre del archivo"**: Genera un ejecutable sin ventana visible (usado para payloads ocultos).
-
----
-
-## 13. Herramientas Criptográficas
+## 10. Herramientas Criptográficas
+Estas herramientas ayudan para la encriptación y desencriptación de archivos y datos.
 - **OpenSSL**: Herramienta poderosa para la creación y gestión de certificados SSL/TLS y encriptación de datos.
 - **ccrypt**: Software de cifrado basado en contraseñas para proteger archivos en Linux.
 
 ---
-
-# Comandos básicos de Linux
-
-## Archivos y Navegación
-- `ls`: Lista los archivos/carpetas en el directorio actual.
-- `ls -l`: Lista los archivos con formato detallado.
-- `ls -la`: Lista los archivos, incluyendo archivos ocultos.
-- `cd dir`: Cambia al directorio especificado.
-- `cd ..`: Cambia al directorio padre.
-- `cd /dir`: Cambia al directorio raíz.
-- `cd ~`: Cambia al directorio personal.
-- `pwd`: Muestra el directorio actual.
-- `mkdir dir`: Crea un nuevo directorio.
-- `rm file`: Elimina un archivo.
-- `rm -rf dir`: Elimina un directorio y su contenido.
-- `cp file1 file2`: Copia el contenido de un archivo a otro.
-- `mv file1 file2`: Renombra o mueve un archivo.
-- `touch file`: Crea o actualiza un archivo.
-- `cat file`: Muestra el contenido de un archivo.
-
-## Información del Sistema
-- `date`: Muestra la fecha y hora actual.
-- `uptime`: Muestra el tiempo que el sistema lleva encendido.
-- `whoami`: Muestra el usuario con el que se ha iniciado sesión.
-- `w`: Muestra los usuarios conectados.
-- `cat /proc/cpuinfo`: Muestra información del CPU.
-- `cat /proc/meminfo`: Muestra información de memoria.
-- `free`: Muestra el uso de memoria y swap.
-- `df`: Muestra el uso del disco.
-- `uname -a`: Muestra la configuración del kernel.
-
-## Redes
-- `ping host`: Envía paquetes ICMP para verificar conectividad.
-- `whois domain`: Obtiene información del dominio.
-- `dig domain`: Recupera información de DNS.
-- `curl url`: Recupera el contenido de una URL.
-- `wget file`: Descarga un archivo.
-- `ssh user@host`: Conexión SSH al host remoto.
-- `scp file user@host:/path`: Copia archivos de manera segura.
-- `netstat -tuln`: Lista las conexiones de red activas.
-- `nmap ip`: Escanea puertos y servicios.
-
-## Procesos
-- `ps`: Lista los procesos activos.
-- `ps aux`: Lista detallada de procesos.
-- `kill pid`: Termina un proceso específico.
-- `top`: Muestra los procesos en ejecución en tiempo real.
-
-## Permisos
-- `chmod octal file`: Cambia los permisos de un archivo.
-  - `4`: Leer (r).
-  - `2`: Escribir (w).
-  - `1`: Ejecutar (x).
-- `chown user:group file`: Cambia el propietario y el grupo de un archivo.
-
-## Comandos de Compresión
-- `tar -cf archivo.tar archivo/`: Crea un archivo tar.
-- `tar -xf archivo.tar`: Extrae un archivo tar.
-- `gzip archivo`: Comprime un archivo.
-- `gunzip archivo.gz`: Descomprime un archivo gzip.
-
-## Otros
-- `grep pattern file`: Busca un patrón dentro de un archivo.
-- `find /path -name nombre`: Busca archivos por nombre.
-- `man comando`: Muestra el manual de un comando.
 
