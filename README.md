@@ -15,6 +15,10 @@ Estas herramientas se utilizan para recopilar información sobre objetivos poten
 - **Wayback Machine**: Archivo digital que permite visualizar versiones anteriores de sitios web.
 - **Shodan.io**: Motor de búsqueda para dispositivos conectados a Internet (IoT) y sus configuraciones.
 - **Userrecon**: Herramienta para la búsqueda de nombres de usuario en plataformas online y redes sociales.
+- **dnsenum:** Herramienta de enumeración de DNS para descubrir subdominios y registros relacionados.
+- **Subcat**: Herramienta utilizada para la exploración de subdominios.
+- **Skytrack**: Plataforma que rastrea dispositivos y direcciones IP.
+- **The Spy's Job**: Herramienta orientada al OSINT, diseñada para automatizar y consolidar diversas técnicas de recopilación de información.
 
 ---
 
@@ -32,6 +36,10 @@ Se utilizan para simular ataques y evaluar la seguridad de sistemas y redes.
 - **Metasploit**: Framework modular para pruebas de penetración que permite ejecutar exploits, crear payloads y realizar escaneos.
 - **BeEF**: Framework para evaluar la seguridad de navegadores web mediante explotación de vulnerabilidades.
 - **TheFatRat**: Herramienta para generar backdoors y payloads ofuscados.
+- **Mimikatz**: Software avanzado para la extracción de credenciales en sistemas Windows.
+- **Nikto**: Escáner de vulnerabilidades en servidores web.
+- **Setoolkit**: Framework para ingeniería social que incluye clonación de sitios web y generación de payloads.
+- **caido**: Plataforma moderna para pruebas de seguridad web.
 
 ---
 
@@ -41,6 +49,9 @@ Estas herramientas se enfocan en la recuperación, generación o fuerza bruta de
 - **John the Ripper**: Cracking de contraseñas utilizando diccionarios o ataques personalizados.
 - **Hydra**: Herramienta para ataques de fuerza bruta en servicios como FTP, SSH y HTTP.
 - **Cupp**: Generador de diccionarios personalizados basados en patrones comunes.
+- **Browser-Bruter**: Herramienta diseñada para realizar ataques de fuerza bruta en navegadores web.
+- **Bphish**: Plataforma avanzada para la recopilación y craqueo de credenciales.
+- **Browser-Bruter**: Herramienta diseñada para llevar a cabo ataques de fuerza bruta dirigidos a interfaces web de autenticación.
 
 ---
 
@@ -65,6 +76,7 @@ Estas herramientas permiten simular ataques de phishing para evaluar la concienc
 - **Maskphish**: Oculta enlaces de phishing mediante ofuscación.
 - **Bitly**: Servicio para acortar URLs.
 - **Yphisher**: Recopila información detallada como ubicación y credenciales.
+- **campfish**: Herramienta avanzada para la generación de ataques de phishing personalizados.
 
 ---
 
@@ -77,6 +89,7 @@ Estas herramientas se usan para investigar y analizar datos después de un incid
 - **Sleuth Kit**: Conjunto de herramientas para el análisis de sistemas de archivos.
 - **FTK Imager**: Herramienta para capturar imágenes forenses de discos duros.
 - **X-Ways Forensics**: Software de investigación digital avanzado para casos complejos.
+- **StegAnalyzer**: Herramienta de detección de información oculta en archivos multimedia.
 
 ---
 
@@ -90,6 +103,8 @@ Estas herramientas ayudan a recopilar información estratégica sobre amenazas y
 - **ThreatCrowd**: Servicio para identificar relaciones entre dominios, IPs y malware.
 - **Hunchly**: Herramienta para documentar y gestionar investigación en fuentes abiertas.
 - **MISP**: Plataforma que permite compartir información sobre ciberamenazas.
+- **IP tracker**: Herramienta para rastrear ubicaciones de direcciones IP.
+- **Blackman**: Plataforma de inteligencia para análisis de amenazas.
 
 ---
 
@@ -103,6 +118,11 @@ Incluye herramientas para tareas específicas que no encajan en las categorías 
 - **Macchanger**: Cambia direcciones MAC para pruebas de seguridad.
 - **Anonsurf**: Capa de anonimato para navegar en redes mediante Tor.
 - **HackCCTV**: Herramienta para detectar cámaras de seguridad vulnerables y verificar configuraciones de seguridad.
+- **VSCode**: Editor de código versátil utilizado para el desarrollo de herramientas de seguridad.
+- **PyCharm**: IDE especializado en Python, útil para desarrollo de scripts de seguridad.
+- **Blackstone**: Herramienta de ciberseguridad para análisis de vulnerabilidades.
+- **Virus-Builder**: Generador de malware personalizado.
+- **Seeker**: Herramienta enfocada en la geolocalización y pruebas de hacking ético. 
 
 ---
 
