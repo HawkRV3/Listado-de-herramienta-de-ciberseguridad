@@ -76,7 +76,7 @@ Estas herramientas permiten simular ataques de phishing para evaluar la concienc
 - **Maskphish**: Oculta enlaces de phishing mediante ofuscación.
 - **Bitly**: Servicio para acortar URLs.
 - **Yphisher**: Recopila información detallada como ubicación y credenciales.
-- **campfish**: Herramienta avanzada para la generación de ataques de phishing personalizados.
+- **campish**: Herramienta avanzada para la generación de ataques de phishing personalizados.
 
 ---
 
